@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+      background: #0A122A;
+      }
+
+/* Let's style the wrapper in such away that, it should always be at the center of the browser */
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height and float them to left and set its border and border-radius.
+ */
+.wrapper ul li {
+ 
+  width: 50px;
+  height: 50px;
+ /* line-height: 1vw;*/
+  margin: 0 3px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid rgb(184, 224, 213);
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px to align it properly */
+.wrapper ul li .fa {
+  color: rgb(184, 224, 213);
+  margin-top: 8px;
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.wrapper ul li:hover.facebook {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+.wrapper ul li:hover.twitter {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.instagram {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/* google */
+.wrapper ul li:hover.google {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/* whatsapp */
+.wrapper ul li:hover.twitter {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/* linkedin */
+/*Note: These are fine... */
+.wrapper ul li:hover.linkedin {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-linkedin {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/* quora */
+.wrapper ul li:hover.quora {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-quora {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/* producthunt */
+.wrapper ul li:hover.product-hunt {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-product-hunt {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+/* patreon */
+.wrapper ul li:hover.patreon {
+  border: 5px solid rgb(168, 193, 186);
+  box-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-thumbs-o-up {
+  color: rgb(168, 193, 186);
+  text-shadow: 0 0 6px rgb(168, 193, 186);
+  transition: all 0.5s ease;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 640px){
+  .wrapper {
+      width: 350px;
+  }
+  .wrapper ul li{
+      margin-top: 10px;
+  }
+  .wrapper ul li.google{
+      margin-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .wrapper {
+      width: 150px;
+  }
+  .wrapper ul li{
+      margin:15px;
+  }
+  .wrapper ul li.google{
+      margin-left: 15px;
+  }
+}
